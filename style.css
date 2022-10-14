@@ -30,7 +30,7 @@
         --fs-h1: 6.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-body: 1.175rem;
     }
 }
 
@@ -50,7 +50,8 @@ body {
     display: grid;
     grid-template-areas: 
     "browser browser"
-    "nav hero";
+    "nav hero"
+    "nav about";
     grid-template-columns: 1fr 4fr;
 }
 
@@ -67,6 +68,7 @@ img {
 /* Nav Section */
 
 .nav {
+    
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -109,13 +111,22 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
+p {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+}
 
+.nav__title {
+    font-size: var(--fs-h3);
+}
 
 .section__title {
     font-size: var(--fs-h1) ;
-    text-transform: uppercase;
+
     font-weight: var(--fw-bold);
 }
+
+
 
 .section__title__two {
     width: 90%;
@@ -129,9 +140,42 @@ h3 { font-size: var(--fs-h3) }
     border-bottom: var(--border);
     padding-left: 5rem;
     padding-bottom: 4.3rem;
+    padding-right: 0;
+    text-transform: uppercase;
 }
 
 .section__subtitle__span {
     display: inline-block;
     width: 25%;
+}
+
+
+/* About section */
+.section__title__about {
+    grid-area: about;
+    border-left: var(--border);
+    border-bottom: var(--border);
+    margin: 0 auto;
+    padding: 7rem;
+}
+
+.section__about__picture {
+    position: relative;
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    padding: 2rem 1rem;
+}
+
+.section__about__p {
+    clear: right;
+    width: 90%;
+    line-height: 1.2;
+}
+
+.section__about-span {
+    width: 15rem;
+    display: inline-block;
 }
