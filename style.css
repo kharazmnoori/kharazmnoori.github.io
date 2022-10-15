@@ -297,6 +297,7 @@ p {
     }
 
     /* about section */
+
     .section__about__picture {
     position: relative;
     max-width: 400px;
@@ -306,6 +307,12 @@ p {
     float: right;
     overflow: hidden;
     padding: 1rem 1rem;
+    }
+    .section__about__p {
+        clear: right;
+        padding-left: .5em;
+        width: 90%;
+        line-height: 1.2;
 }
     /* title */
     .section__subtitle__span {
