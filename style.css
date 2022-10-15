@@ -291,14 +291,15 @@ p {
     header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 1em;
         border-bottom: var(--border);
     }
 
     .section__about__picture {
     position: relative;
-    max-width: 400px;
-    height: 300px;
+    max-width: 300px;
+    height: 200px;
     /* background-size: cover;
     background-repeat: no-repeat; */
     float: right;
@@ -312,9 +313,9 @@ p {
     }
 
     .nav-toggle {
-        padding: 0.6em;
+        /* padding: 0.6em; */
         background: transparent;
-        border: 0;
+        /* border: 0; */
         cursor: pointer;
         z-index: 1000;
     }
@@ -323,6 +324,7 @@ p {
         text-decoration: underline;
         font-size: var(--fs-body);
         color: var(--clr-dark);
+        /* color:blue; */
         font-weight: var(--fw-reg);
     }
 
