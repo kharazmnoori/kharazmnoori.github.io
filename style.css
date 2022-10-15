@@ -251,6 +251,16 @@ p {
 
 .section__contact {
     grid-area: contact;
+    border-left: var(--border);
+}
+
+.section__contact__title {
+    padding-bottom: 0.5em;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--clr-dark);
 }
 
 
