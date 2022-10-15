@@ -94,6 +94,7 @@ img {
 }
 
 .nav__link {
+    
     text-decoration: none;
     color: black;
     color: var(--clr-dark);
@@ -125,11 +126,8 @@ p {
 
 .section__title {
     font-size: var(--fs-h1) ;
-
     font-weight: var(--fw-bold);
 }
-
-
 
 .section__title__two {
     width: 90%;
@@ -203,4 +201,29 @@ p {
 
 .section__contact {
     grid-area: contact;
+}
+
+
+
+/* Media queries */
+
+@media screen and (max-width:850px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .nav__link{
+        display: none;
+    }
+
+    .nav {
+        
+        overflow: hidden;
+    }
+    
 }
