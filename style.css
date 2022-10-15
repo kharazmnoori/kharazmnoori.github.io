@@ -296,6 +296,7 @@ p {
         border-bottom: var(--border);
     }
 
+    /* about section */
     .section__about__picture {
     position: relative;
     max-width: 400px;
@@ -306,11 +307,13 @@ p {
     overflow: hidden;
     padding: 1rem 1rem;
 }
-
+    /* title */
     .section__subtitle__span {
         display: inline-block;
         width: 15%;
     }
+
+    /* nav section */
 
     .nav-toggle {
         /* padding: 0.6em; */
@@ -386,6 +389,14 @@ p {
         position: fixed;
     }
     
+    .section__service{
+        border-left: 0;
+    }
+
+    .section__work{
+        border-left: 0 ;
+    }
+
 }
 
 @media screen and (min-width: 850px) {
