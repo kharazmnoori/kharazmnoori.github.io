@@ -144,7 +144,7 @@ p {
 .intro{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
+    padding-left: 2em;
     border-left: var(--border);
     border-bottom: var(--border);
     text-transform: uppercase;
