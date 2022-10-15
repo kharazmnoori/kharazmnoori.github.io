@@ -183,8 +183,24 @@ p {
     display: inline-block;
 }
 
+/* Services */
 
 .section__services{
     grid-area: service;
 
+}
+
+
+
+/* Work */
+
+.section__works{
+    grid-area: work;
+}
+
+
+/* contact */
+
+.section__contact {
+    grid-area: contact;
 }
