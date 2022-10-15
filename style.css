@@ -25,13 +25,14 @@
     --border: 2.1px solid var(--clr-dark);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     :root {
         --fs-h1: 6.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.175rem;
     }
+
 }
 
 /* General Design */
@@ -101,6 +102,7 @@ img {
 }
 
 
+
 /* typography */
 
 
@@ -157,17 +159,24 @@ p {
     border-left: var(--border);
     border-bottom: var(--border);
     margin: 0 auto;
-    padding: 7rem;
+    padding: 1.5em 1em;
+    /* border: 1px solid red; */
+}
+
+.section__about__title {
+    position: relative;
+    padding: 0;
+    /* border: 1px solid red; */
 }
 
 .section__about__picture {
     position: relative;
-    max-width: 100%;
+    max-width: 500px;
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     float: right;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .section__about__p {
@@ -185,6 +194,7 @@ p {
 
 .section__services{
     grid-area: service;
+    max-width: 1000px;
     border-left: var(--border);
     border-bottom: var(--border);
 }
@@ -234,7 +244,7 @@ p {
 
 .section__work {
     border-top: var(--border);
-    max-width: 800px;
+    max-width: 1000px;
     padding: 0.6em 0 ;
     display: flex;
     justify-content: space-between;
@@ -339,7 +349,7 @@ p {
         background: transparent;
         border: 0;
         cursor: pointer;
-        /* position: absolute; */
+        position: absolute;
         right: 1.4em;
         top: 4em;
         z-index: 1000;
@@ -353,6 +363,14 @@ p {
 
     .nav-open .nav-toggle {
         position: fixed;
+    }
+    
+}
+
+@media screen and (min-width: 850px) {
+
+    .nav-toggle {
+        display: none;
     }
     
 }
