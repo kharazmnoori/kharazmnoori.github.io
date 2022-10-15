@@ -101,6 +101,9 @@ img {
     color: var(--clr-dark);
 }
 
+.nav__title {
+    padding-left: .3em;
+}
 
 
 /* typography */
