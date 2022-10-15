@@ -295,6 +295,16 @@ p {
         border-bottom: var(--border);
     }
 
+    .section__about__picture {
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    float: right;
+    overflow: hidden;
+    padding: 1rem 1rem;
+}
 
     .section__subtitle__span {
         display: inline-block;
