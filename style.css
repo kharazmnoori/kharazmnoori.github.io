@@ -297,11 +297,6 @@ p {
         font-weight: var(--fw-reg);
     }
 
-
-    .nav__link{
-        /* display: none; */
-    }
-
     .nav {
         position: fixed;
         background: var(--clr-dark);
@@ -316,12 +311,17 @@ p {
     }
 
     .nav__list {
+        position: absolute;
+        left: 0;
+        top: 0;
         list-style: none;
+        /* border: 1px solid red; */
         display: flex;
-        height: 100%;
-        flex-direction: row;
-        justify-content: space-around;
-        /* align-items: center; */
+        flex-direction: column;
+        height: 30em;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
         margin: 0;
         padding: 0;
 
@@ -330,7 +330,7 @@ p {
     .nav__link {
         color: inherit;
         font-weight: var(--fw-bold);
-        font-size: var(--fs-body);
+        font-size: var(--fs-h2);
         text-decoration: none;
     }
 
