@@ -223,8 +223,28 @@ p {
 .section__works{
     grid-area: work;
     border-bottom: var(--border);
-    
+    border-left: var(--border);
+
 }
+
+.section__work__title{
+    position: relative;
+    padding-bottom: .5em;
+}
+
+.section__work {
+    border-top: var(--border);
+    max-width: 800px;
+    padding: 0.6em 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__work__pic {
+    height: 160px;
+    width: auto;
+}
+
 
 
 /* contact */
