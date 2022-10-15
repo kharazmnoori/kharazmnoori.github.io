@@ -178,6 +178,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     float: right;
+    overflow: hidden;
     padding: 1rem 1rem;
 }
 
@@ -188,7 +189,7 @@ p {
 }
 
 .section__about-span {
-    width: 15rem;
+    width: 10rem;
     display: inline-block;
 }
 
