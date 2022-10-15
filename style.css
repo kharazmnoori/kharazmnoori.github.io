@@ -27,7 +27,7 @@
 
 @media (min-width: 850px) {
     :root {
-        --fs-h1: 6.5rem;
+        --fs-h1: 6.3rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.175rem;
@@ -167,7 +167,7 @@ p {
 
 .section__about__title {
     position: relative;
-    padding: 0;
+    padding: .1em .3em ;
     /* border: 1px solid red; */
 }
 
@@ -175,8 +175,8 @@ p {
     position: relative;
     max-width: 500px;
     height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     float: right;
     overflow: hidden;
     padding: 1rem 1rem;
