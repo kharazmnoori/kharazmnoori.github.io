@@ -161,9 +161,8 @@ p {
     grid-area: about;
     border-left: var(--border);
     border-bottom: var(--border);
-    margin: 0 auto;
     padding: 1.5em 1em;
-    /* border: 1px solid red; */
+    /* border: 1px solid red;  */
 }
 
 .section__about__title {
