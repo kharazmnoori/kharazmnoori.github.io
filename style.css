@@ -417,3 +417,34 @@ p {
     }
     
 }
+
+
+@media screen and (min-width: 1800px) {
+   :root {
+        --fs-h1: 7.3rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.9rem;
+        --fs-body: 1.6rem;
+    } 
+
+    .section__title__about {
+        display: grid;
+        grid-template-areas: 
+        "title title"
+        "body picture" ;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section__about__title {
+        grid-area: title;
+    }
+    .section__about__picture {
+        grid-area: picture;
+    }
+    .section__about__p {
+        grid-area: body;
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+}
