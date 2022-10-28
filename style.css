@@ -13,7 +13,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    /* --clr-accent: red; */
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -29,8 +29,8 @@
     :root {
         --fs-h1: 6.3rem;
         --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.175rem;
+        --fs-h3: 1.8rem;
+        --fs-body: 1.4rem;
     }
 
 }
@@ -56,7 +56,7 @@ body {
     "nav service"
     "nav work"
     "nav contact";
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
 }
 
 section {
@@ -188,7 +188,7 @@ p {
 .section__about__p {
     clear: right;
     width: 70%;
-    line-height: 1.2;
+    line-height: 1.5em;
     
 }
 
@@ -284,7 +284,7 @@ p {
 
 /* Media queries */
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 900px) {
 
     body{
         display: flex;
@@ -410,7 +410,7 @@ p {
 
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
 
     .nav-toggle {
         display: none;
@@ -419,7 +419,7 @@ p {
 }
 
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1600px) {
    :root {
         --fs-h1: 7.3rem;
         --fs-h2: 3.75rem;
