@@ -260,7 +260,7 @@ p {
 .section__work {
     border-top: var(--border);
     
-    padding: 0.6em 0 ;
+    padding: 1.5em 0 ;
     display: flex;
     justify-content: space-between;
 }
@@ -272,6 +272,7 @@ p {
     border-radius: 13px;
     object-fit: cover;
     flex-shrink: 0;
+    margin-left: 1em;
 }
 
 
