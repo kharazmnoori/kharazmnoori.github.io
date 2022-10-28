@@ -422,6 +422,10 @@ p {
         border-left: 0 ;
     }
 
+    .section__work__pic {
+        max-height: 8em;
+
+    }
 
 }
 
