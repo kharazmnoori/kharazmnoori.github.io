@@ -241,12 +241,20 @@ p {
     grid-area: work;
     border-bottom: var(--border);
     border-left: var(--border);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .section__work__title{
     position: relative;
     padding-bottom: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
 
 .section__work {
@@ -258,8 +266,12 @@ p {
 }
 
 .section__work__pic {
-    height: 160px;
-    width: auto;
+    height: 140px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 13px;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 
@@ -422,7 +434,7 @@ p {
 @media screen and (min-width: 1600px) {
    :root {
         --fs-h1: 7.3rem;
-        --fs-h2: 3.75rem;
+        --fs-h2: 2.5rem;
         --fs-h3: 1.9rem;
         --fs-body: 1.6rem;
     } 
