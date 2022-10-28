@@ -296,7 +296,7 @@ p {
 
 /* Media queries */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:1050px) {
 
     body{
         display: flex;
@@ -422,7 +422,7 @@ p {
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1050px) {
 
     .nav-toggle {
         display: none;
