@@ -257,6 +257,13 @@ p {
     
 }
 
+.work__link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--fs-body);
+
+}
+
 .section__work {
     border-top: var(--border);
     
@@ -436,7 +443,6 @@ p {
         overflow: hidden;
         object-fit:inherit;
         margin: 0 auto;
-
     }
 
 }
