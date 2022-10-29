@@ -154,7 +154,7 @@ p {
 
 .section__subtitle__span {
     display: inline-block;
-    width: 25%;
+    width: 210px
 }
 
 
@@ -187,13 +187,14 @@ p {
 
 .section__about__p {
     clear: right;
-    width: 70%;
+    max-width: 90%;
     line-height: 1.5em;
-    
+    /* padding-left: 3em; */
+    /* border: 1px solid red; */
 }
 
 .section__about-span {
-    width: 10rem;
+    width: 2.7rem;
     display: inline-block;
 }
 
